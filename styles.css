@@ -1,0 +1,68 @@
+body {  
+    font-family: Arial, sans-serif;  
+    margin: 0;  
+    padding: 0;  
+    color: #333;  
+    background-size: cover;
+}  
+.header {  
+    height: 10vh;  
+    display: flex;  
+    flex-direction: row;
+    justify-content: space-between  ;  
+    align-items: center;  
+    background: #98a6a8;
+    padding: 1em;
+
+    
+}
+.nav{
+    margin: 0;
+}
+.nav-link{
+    color: #fff;
+    margin: 1em;
+    text-decoration: none;
+}
+
+/* section {  
+    padding: 50px;  
+    text-align: center;  
+    color: white;
+    background-color: black;
+    
+}   */
+.about {  
+    display: flex;  
+    flex-direction: column;  
+    align-items: center; 
+    background: #000; 
+}  
+.about_me{
+    color: #fff;
+    padding: 3em;
+}
+#about img {  
+    border-radius: 50%;  
+    width: 30vw; /* Change to desired size */  
+    height: 60vh; /* Change to desired size */  
+    margin-bottom: 20px; 
+}  
+#projects {  
+    display: flex;  
+    flex-direction: column;  
+    align-items: center;  
+}  
+.project {  
+    margin: 20px 0;  
+    border: 1px solid #ddd;  
+    padding: 15px;  
+    width: 80%;  
+    max-width: 600px;  
+}  
+footer {  
+    padding: 20px;  
+    background: purple;  
+    text-align: center;  
+    color: white;
+}  
