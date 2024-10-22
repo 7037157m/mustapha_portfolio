@@ -2,8 +2,8 @@ body {
     font-family: Arial, sans-serif;  
     margin: 0;  
     padding: 0;  
-    color: #333;  
     background-size: cover;
+    background: #cbf3f0;
 }  
 .header {  
     height: 10vh;  
@@ -11,7 +11,7 @@ body {
     flex-direction: row;
     justify-content: space-between  ;  
     align-items: center;  
-    background: #98a6a8;
+    /* background: #98a6a8; */
     padding: 1em;
 
     
@@ -24,7 +24,53 @@ body {
     margin: 1em;
     text-decoration: none;
 }
-
+.home{
+    background-image: url('AIRSIDE.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    background-position: center;
+    height: 100vh;
+}
+.main{
+    display: flex;
+    flex-direction: row;
+}
+.image{
+    width: 30%;
+    padding: 4rem;
+}
+.greeting{
+    padding-top: 5rem;
+}
+.greet{
+    font-size: 3em;
+    color: #fff;
+    font-weight: bold;
+}
+.span{
+    color: #2ec4b6;
+}
+.logo{
+    background: #2ec4b6;
+    padding: .1em;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 5px;
+}
+.home::after{
+    content: "";
+    /* position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0; */
+    background: rgba(33, 37, 41, 0.7);
+}
+.profile_image{
+     width: 30vw;
+     height: 70vh;
+}
 /* section {  
     padding: 50px;  
     text-align: center;  
@@ -36,10 +82,11 @@ body {
     display: flex;  
     flex-direction: column;  
     align-items: center; 
-    background: #000; 
+    background: #cbf3f0;
+    padding: 0 15rem 0 18rem;
 }  
 .about_me{
-    color: #fff;
+    color: #000;
     padding: 3em;
 }
 #about img {  
@@ -48,11 +95,24 @@ body {
     height: 60vh; /* Change to desired size */  
     margin-bottom: 20px; 
 }  
-#projects {  
+#projects, .contacts {  
     display: flex;  
     flex-direction: column;  
     align-items: center;  
 }  
+.project_link{
+    text-decoration: none;
+    background: #2ec4b6;
+    padding: .5em;
+    border-radius: 10px;
+    color: #fff;
+    font-weight: bold;
+}
+.contact_links{
+    text-decoration: none;
+    color: #443f3f;
+    font-weight: bold;
+}
 .project {  
     margin: 20px 0;  
     border: 1px solid #ddd;  
@@ -62,7 +122,7 @@ body {
 }  
 footer {  
     padding: 20px;  
-    background: purple;  
+    background: #2ec4b6;  
     text-align: center;  
     color: white;
 }  
