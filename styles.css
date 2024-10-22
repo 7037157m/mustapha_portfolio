@@ -11,7 +11,6 @@ body {
     flex-direction: row;
     justify-content: space-between  ;  
     align-items: center;  
-    /* background: #98a6a8; */
     padding: 1em;
 
     
@@ -60,24 +59,12 @@ body {
 }
 .home::after{
     content: "";
-    /* position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0; */
     background: rgba(33, 37, 41, 0.7);
 }
 .profile_image{
      width: 30vw;
      height: 70vh;
 }
-/* section {  
-    padding: 50px;  
-    text-align: center;  
-    color: white;
-    background-color: black;
-    
-}   */
 .about {  
     display: flex;  
     flex-direction: column;  
@@ -91,8 +78,8 @@ body {
 }
 #about img {  
     border-radius: 50%;  
-    width: 30vw; /* Change to desired size */  
-    height: 60vh; /* Change to desired size */  
+    width: 30vw; 
+    height: 60vh;  
     margin-bottom: 20px; 
 }  
 #projects, .contacts {  
